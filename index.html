@@ -11,6 +11,7 @@
   a { color:#0B5FA5; }
   .wrap { max-width:960px; margin:0 auto; padding:0 18px; }
   header.hero { background:#14213D; color:#fff; padding:56px 0 48px; text-align:center; }
+  .hero .avatar { width:148px; height:148px; border-radius:50%; object-fit:cover; border:4px solid #F4B400; margin-bottom:16px; }
   .hero .kicker { font-size:14px; letter-spacing:2px; font-weight:700; color:#F4B400; text-transform:uppercase; }
   .hero h1 { font-size:42px; line-height:1.15; margin:12px 0 10px; }
   .hero .title { font-size:19px; max-width:640px; margin:0 auto 8px; }
@@ -26,6 +27,7 @@
   p.lead { font-size:17px; max-width:760px; }
   .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:16px; margin-top:6px; }
   .card { background:#fff; border:2px solid #C3CCD9; border-radius:14px; padding:18px; display:flex; flex-direction:column; }
+  .card img.thumb { width:100%; height:auto; border-radius:8px; border:1px solid #C3CCD9; margin-bottom:12px; }
   .card h3 { font-size:19px; margin-bottom:2px; }
   .card .role { font-size:13px; font-weight:700; color:#0B7A43; text-transform:uppercase; letter-spacing:.5px; margin-bottom:8px; }
   .card p { font-size:15px; flex:1; }
@@ -48,6 +50,7 @@
 
 <header class="hero">
   <div class="wrap">
+    <img class="avatar" src="img/profile.jpg" alt="Shafqat Mehwar">
     <div class="kicker">Portfolio</div>
     <h1>Shafqat Mehwar</h1>
     <p class="title">Founder &amp; CEO @ <b>FoneMandi</b> · Builder of marketplaces, tools &amp; AI-agent systems</p>
@@ -72,6 +75,7 @@
     <div class="grid">
 
       <div class="card">
+        <img class="thumb" src="img/fonemandi.jpg" alt="FoneMandi homepage" loading="lazy">
         <h3>FoneMandi</h3>
         <div class="role">Founder &amp; CEO</div>
         <p>Live mobile-phone marketplace for Chiniot's mobile market — vendor shops with their own logins, WhatsApp ordering, GA4 tracking and an SEO blog, hosted on Cloudflare Workers + Supabase.</p>
@@ -79,6 +83,7 @@
       </div>
 
       <div class="card">
+        <img class="thumb" src="img/furniture.jpg" alt="Chiniot Furniture Bazar homepage" loading="lazy">
         <h3>Chiniot Furniture Bazar</h3>
         <div class="role">Founder</div>
         <p>Live furniture marketplace with dozens of real showrooms and 1,800+ product listings, 8 category hub pages and a no-price WhatsApp quote funnel that businesses use daily.</p>
@@ -86,6 +91,7 @@
       </div>
 
       <div class="card">
+        <img class="thumb" src="img/krenexis.jpg" alt="Krenexis homepage" loading="lazy">
         <h3>Krenexis</h3>
         <div class="role">Founder &amp; WordPress Developer</div>
         <p>My web agency — client delivery end to end: scoping, design, Elementor Pro builds, launch and support, plus outbound lead generation for UK/US clients.</p>
@@ -142,6 +148,7 @@
       </div>
 
       <div class="card">
+        <img class="thumb" src="img/toolmandi.jpg" alt="ToolMandi homepage" loading="lazy">
         <h3>ToolMandi</h3>
         <div class="role">Builder</div>
         <p>13 free browser-only tools Pakistanis need daily — image compression to exact KB (FPSC/PPSC/NTS presets), passport photos, PDF tools, QR codes and more. No uploads, everything runs on your device.</p>
@@ -149,6 +156,7 @@
       </div>
 
       <div class="card">
+        <img class="thumb" src="img/mandikart.jpg" alt="MandiKart homepage" loading="lazy">
         <h3>MandiKart</h3>
         <div class="role">Builder</div>
         <p>Online general store for everyday problem-solving products, home of the CHAMAK cleaning brand — launched with its first product, CHAMAK Drain Opener Powder.</p>
